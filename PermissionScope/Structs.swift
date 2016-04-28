@@ -23,14 +23,14 @@ import Foundation
     
     public var description: String {
         switch self {
-        case .Contacts:         return "Contacts"
-        case .Events:           return "Events"
-        case .LocationAlways:   return "LocationAlways"
-        case .LocationInUse:    return "LocationInUse"
-        case .Notifications:    return "Notifications"
-        case .Microphone:       return "Microphone"
+        case .Contacts:         return "Contactos"
+        case .Events:           return "Eventos"
+        case .LocationAlways:   return "Localização"
+        case .LocationInUse:    return "Localização"
+        case .Notifications:    return "Notificações"
+        case .Microphone:       return "Microfone"
         case .Camera:           return "Camera"
-        case .Photos:           return "Photos"
+        case .Photos:           return "Fotos"
         case .Reminders:        return "Reminders"
         case .Bluetooth:        return "Bluetooth"
         case .Motion:           return "Motion"
@@ -46,10 +46,10 @@ import Foundation
     
     public var description: String {
         switch self {
-        case .Authorized:   return "Authorized"
-        case .Unauthorized: return "Unauthorized"
-        case .Unknown:      return "Unknown"
-        case .Disabled:     return "Disabled" // System-level
+        case .Authorized:   return "Autorizado"
+        case .Unauthorized: return "Não Autorizado"
+        case .Unknown:      return "Indefinido"
+        case .Disabled:     return "Inactivo" // System-level
         }
     }
 }
