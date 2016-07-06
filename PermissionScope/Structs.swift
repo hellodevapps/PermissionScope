@@ -49,7 +49,7 @@ import Foundation
         case .Photos:           return "Fotos"
         case .Reminders:        return "Reminders"
         case .Bluetooth:        return "Bluetooth"
-        case .Motion:           return "Motion"
+        case .Motion:           return "Movimento"
         }
     }
     
